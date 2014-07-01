@@ -40,8 +40,18 @@ In conjuction with utilising the  "main.c" and "board.c" files with the furter t
 This test plan will also incorporate testing on the "keyboard.c" file although this will be mainly done at a unit level.
 
 ##Testing Process
+This testing model will implement 4 types of testing techniques,
+* Black Box
+* Compliance
+* Production
+* Regression
 
+Utilising black box testing for the basic production, compliance and regression tests this will provide a base for the other stages of testing.
+Using compliance testing to assess the different stages of the program while it is under development will provide us with further tests for the functions such as, rotating the board, combining tiles, and sliding tiles.
+Production testing would bring an added stage of testing for each part of the program, and would also go on to include additional testing for each of the previously listed functions.
+Implementing Regression testing will be able to provide us with tests for any regressions that might have developed from adding any additional functions to this program.
+
+I do not believe this program would need any other methods of testing due to the fact that I feel that they are not necessary for this program. 
 
 ##Conclusion
-
-Currently Incomplete.
+Following this test plan will result in a superior product with a minimised chance of bugs.
