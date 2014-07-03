@@ -19,7 +19,7 @@ int tilt_line_left(int length,int *line)
   for (b = 3; b >= 1; b --) {
     if (line[b] == line[b + 1]) {
       line[b] = line[b] * 2;
-      line([b + 1] = 0);
+      line[b + 1] = 0;
     }
   }
 
